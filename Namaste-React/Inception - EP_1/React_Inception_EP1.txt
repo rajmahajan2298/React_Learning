@@ -1,0 +1,37 @@
+Topics Learned Today In React
+
+(i) Firstly,we have seen the basic of HTML and JavaScript and
+how to print Hello World in Both of them.
+
+(ii) Then we have seen how to import React in our Project through CDN(Content Delivery Network) Links.
+In those links we have two separate links one is for React Development and Other is for
+React-Dom. React Dom help us in DOM Operations and Manipulations.
+
+(iii) Then we have seen what is CORS(Cross-Origin) which helps us to request or use the
+resources from other servers or through links like (Stylesheet, Script, iframes etc.).
+
+(iv) React.createElement is an Object.
+
+(v) We have seen what we put in the root element that only React will take care.
+The root Element will replace the things on HTML page which is written inside root.
+For Ex:-
+If We have a an H1 element before root and after root
+
+<h1> Heading Above Root </h1>
+<div id="root">
+  <h1>I'm an H1 Tag </h1>
+</div>
+<h1> Heading Below Root </h1>
+
+The things inside root H1 Tag get replaced by the App.js File where React code is working.
+
+(vi) root.render will take Object and will helps Browser to print the Data in the Form of
+HTML.
+
+(vii) If we have Nested Element We can Render them easily in React.
+But if we have Multiple Sibling and Child we can render them with the help of
+the Array or List.
+
+(viii) Browser Do not understands the react code.
+
+(ix) ReactElement(Object) ==> HTML (Browser Understands).
