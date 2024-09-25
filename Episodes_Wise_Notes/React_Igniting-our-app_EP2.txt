@@ -1,0 +1,33 @@
+Topics Learned in Episode 2
+
+(i) In today's lecture we have learned about how to create a prouduction 
+ready app in react.
+
+(ii) We seen what is NPM and What is the Meaning of NPM. NPM does'nt
+have any full Form. NPM behind the Scenes works an Node Packages Manager 
+It manages the packages but not stands for it.
+
+(iii) We have learned about the Bundlers. Bundlers packages our app
+so, that it can be shift to production.
+
+(iv) We have Learned about the Package.json and Package.lock.json.
+Package.Json is configuration for NPM. It keeps the track of all
+the dependency we have install. Package.lock.json keep the exact track
+and the current versions records.
+
+(v) We have learned about the parcel one of the bundler. How it
+is making our react app fast and optimize.
+
+(vi) Parcel is a web-pack which helps us to load the bundler it comes with
+.parcel-cache files and dist folder which make it to work faster. It also 
+provide localhost server. To run the application Faster.
+
+(vii) Parcel behind the scene uses many things to make it faster like
+HMR(Hot Module Replacement), Caching, Bundling, Tree Shaking and 
+many more.
+
+(viii) Transative Dependency which states if our project have
+dependency on parcel, and parcel also have some dependency on 
+other dependency and that dependency also have depend on any other
+is known as Transative Dependency.
+
