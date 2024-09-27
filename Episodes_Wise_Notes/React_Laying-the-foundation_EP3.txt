@@ -1,0 +1,25 @@
+Topics Learned in Epsiode 3
+
+(i) Firstly, we learn how to write Scriptsin package.json.
+
+(ii) Then we have learned about the React.createElement and see
+how JSX Can Make Our life easy. JSX Is JavaScript Syntax Extension.
+With JSX We can write a clean code. With JSX we can write JavaScript
+and HTML. JSX Code is not know to browser or React behind the scene it 
+use Babel to transpile the Code. Babel isa JavaScript transpiler.
+
+(iii) Than we have learned about the components in React and types of
+Component. There are two types of Componentin React one is Class Based 
+Component and Other one is Functional Component. Functional Component is 
+a JavaScript functions only. When we are writing the components we need
+to use camelcase wording.
+
+(iv) Than we have learned about the Component Composition. Nesting a 
+Component inside a Component is known as Component Composition.
+
+(v) Than we have seen how we can write React Element inside a React
+Component.
+
+(vi) Than we have inside {} we can write any kind of JavaScript Code.
+
+  
