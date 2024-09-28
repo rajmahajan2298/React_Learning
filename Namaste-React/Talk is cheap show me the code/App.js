@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDom from "react-dom";
+import myImage from "./images/myReact.png";
 import "./index.css";
 
 const Header = () => {
@@ -8,7 +9,7 @@ const Header = () => {
             <div className="logo-container">
                 <img 
                 className="logo"
-                src="https://www.logodesign.net/logo/smoking-burger-with-lettuce-3624ld.png?nwm=1&nws=1&industry=fast-food&sf=&txt_keyword=All" />
+                src={myImage} />
             </div>
             <div className="nav-items">
                 <ul>
@@ -22,13 +23,14 @@ const Header = () => {
     )
 }
 
-const RestaurantCard = () => {
+const RestaurantCard = (props) => {
+    const { resName, cusinie } = props;
     return (
         <div className="res-card">
             <img className="res-image" 
              src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2469fa88ee9b0b5d1366ba88f2a7fa7f" />
-            <h3>Indian Coffee House</h3>
-            <h4>North Indian, Asian</h4>
+            <h3>{resName}</h3>
+            <h4>{cusinie}</h4>
             <h4>4.4 Stars</h4>
             <h4>20 Mins</h4>
         </div>
@@ -40,11 +42,11 @@ const Body = () => {
         <div className="body">
             <div className="search">Search</div>
             <div className="res-container">
+                <RestaurantCard resName="Indian Coffee House" cusinie="North Indian, Asian" />
+                <RestaurantCard resName="Burger King" cusinie="Burger, American"/>
+                {/* <RestaurantCard />
                 <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
-                <RestaurantCard />
+                <RestaurantCard /> */}
             </div>
         </div>
     )
