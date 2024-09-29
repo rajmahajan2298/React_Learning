@@ -24,26 +24,58 @@ const Header = () => {
 }
 
 const RestaurantCard = (props) => {
-    const { resName, cusinie } = props;
+    const { resData } = props;
+
     return (
         <div className="res-card">
             <img className="res-image" 
-             src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/2469fa88ee9b0b5d1366ba88f2a7fa7f" />
-            <h3>{resName}</h3>
-            <h4>{cusinie}</h4>
-            <h4>4.4 Stars</h4>
-            <h4>20 Mins</h4>
+             src= {"RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/" + resData.info.cloudinaryImageId} />
+            <h3>{resData.info.name}</h3>
+            <h4>{resData.info.cuisines.join(" , ")}</h4>
+            <h4>{resData.info.costForTwo}</h4>
+            <h4>{resData.info.avgRating} stars</h4>
+            <h4>{resData.sla.deliveryTime} Minutes</h4>
         </div>
     )
 }
+
+const resObj = {
+"info": {
+"id": "249305",
+"name": "KFC",
+"cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2024/4/17/e2270129-d210-4a35-b044-73ae307c5280_249305.JPG",
+"locality": "Banaka Tower",
+"areaName": "Uttarahalli",
+"costForTwo": "₹400 for two",
+"cuisines": [
+"Burgers",
+"Fast Food",
+"Rolls & Wraps"
+],
+"avgRating": 4.3,
+"parentId": "547",
+"avgRatingString": "4.3",
+"totalRatingsString": "8.1K+"
+},
+
+"sla": {
+    "deliveryTime": 22,
+    "lastMileTravel": 2.9,
+    "serviceability": "SERVICEABLE",
+    "slaString": "20-25 mins",
+    "lastMileTravelString": "2.9 km",
+    "iconType": "ICON_TYPE_EMPTY"
+   }
+}
+
 
 const Body = () => {
     return (
         <div className="body">
             <div className="search">Search</div>
             <div className="res-container">
-                <RestaurantCard resName="Indian Coffee House" cusinie="North Indian, Asian" />
-                <RestaurantCard resName="Burger King" cusinie="Burger, American"/>
+                <RestaurantCard resData = {resObj}/>
+                {/* <RestaurantCard resName="Burger King" cusinie="Burger, American"/> */}
                 {/* <RestaurantCard />
                 <RestaurantCard />
                 <RestaurantCard /> */}
