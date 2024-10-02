@@ -1,11 +1,12 @@
 import RestaurantCard from "./RestaurantCard";
 import { useState } from "react";
-import resList from "../utlis/mockdata";
+import resList from "../utlis/mockData";
 
 
 const Body = () => {
 
     const [listOfRestaurants, setListOfRestaurants] = useState(resList);
+
     return (
         <div className="body">
             <div className="filter">
@@ -23,7 +24,7 @@ const Body = () => {
             </div>
             <div className="res-container">
                 {
-                    resList.map((restaurant=>
+                    listOfRestaurants.map((restaurant) => (
                          <RestaurantCard key = {restaurant.info.id} resData = {restaurant} />
                     ))
                 } 

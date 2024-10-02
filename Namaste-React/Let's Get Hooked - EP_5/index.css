@@ -62,8 +62,9 @@
     box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5);
 }
 
-.search {
-    padding: 10px;
-    margin-left: 60px;
+.filter-btn {
+    padding: 8px;
+    margin-left: 65px;
+    margin-bottom: 5px;
     cursor: pointer;
 }
