@@ -12,7 +12,7 @@ const resList = [
     "Fast Food",
     "Rolls & Wraps"
     ],
-    "avgRating": 4.3,
+    "avgRating": 3.8,
     "parentId": "547",
     "avgRatingString": "4.3",
     "totalRatingsString": "8.1K+"
@@ -43,7 +43,7 @@ const resList = [
     "Desserts",
     "Baverages"
     ],
-    "avgRating": 4.4,
+    "avgRating": 3.9,
     "parentId": "2456",
     "avgRatingString": "4.4",
     "totalRatingsString": "2.2K+"
@@ -147,6 +147,93 @@ const resList = [
     "iconType": "ICON_TYPE_EMPTY"
      },
     },  
-    ]
+    {
+"info": {
+"id": "626773",
+"name": "Great Indian Khichdi by EatFit",
+"cloudinaryImageId": "6e44fd7f1e5cd9967edfe47c10247671",
+"locality": "Rajeshwarinagar",
+"areaName": "BEML Layout",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"Indian",
+"Healthy Food",
+],
+"avgRating": 3.3,
+"veg": true,
+"parentId": "319582",
+"avgRatingString": "4.3",
+"totalRatingsString": "801",
+},
+"imageBaseUrl":"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/",
+"sla": {
+"deliveryTime": 25,
+"lastMileTravel": 3,
+"serviceability": "SERVICEABLE",
+"slaString": "25-30 mins",
+"lastMileTravelString": "3.0 km",
+"iconType": "ICON_TYPE_EMPTY"
+    },
+
+    },
+    {
+      "info": {
+"id": "501420",
+"name": "ITC Sunfeast Baked Creations",
+"cloudinaryImageId": "c9caf584-fff1-489f-be2b-48518cddf7f2_501420.jpg",
+"locality": "Banashankari",
+"areaName": "Banashankari",
+"costForTwo": "₹600 for two",
+"cuisines": [
+"Bakery",
+"Continental",
+"Cafe",
+],
+"avgRating": 4.6,
+"parentId": "12285",
+"avgRatingString": "3.9",
+"totalRatingsString": "746"
+},
+"imageBaseUrl":"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/9/11/",
+"sla": {
+"deliveryTime": 36,
+"lastMileTravel": 3.5,
+"serviceability": "SERVICEABLE",
+"slaString": "35-40 mins",
+"lastMileTravelString": "3.5 km",
+"iconType": "ICON_TYPE_EMPTY"
+  },
+},
+{
+"info": {
+"id": "687153",
+"name": "Ovenfresh Cakes and Desserts",
+"cloudinaryImageId": "bfbe4bb7-0c7b-4f19-8f3b-c5036455b83d_687153.jpg",
+"locality": "BEML Layout",
+"areaName": "Raja Rajeshwarinagar",
+"costForTwo": "₹200 for two",
+"cuisines": [
+"Bakery",
+"Sweets",
+"Bengali",
+],
+"avgRating": 4.2,
+"parentId": "1372",
+"avgRatingString": "4.2",
+"totalRatingsString": "112"
+},
+"imageBaseUrl":"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2024/8/22/",
+"sla": {
+"deliveryTime": 33,
+"lastMileTravel": 3,
+"serviceability": "SERVICEABLE",
+"slaString": "30-35 mins",
+"lastMileTravelString": "3.0 km",
+"iconType": "ICON_TYPE_EMPTY"
+},
+},
+]
+
+
     
 export default resList;
