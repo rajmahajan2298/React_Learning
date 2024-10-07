@@ -6,8 +6,8 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
 import ResturantMenu from "./components/ResturantMenu";
-import "../index.css";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import "../index.css";
 
 const AppLayout = () => {
     return (
